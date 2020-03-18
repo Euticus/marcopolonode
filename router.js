@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-    res.send('FUCK YOU YOU PIECE OF SHIT!')
+    res.send('I should probably say something nice here')
 });
 
 module.exports = router;
